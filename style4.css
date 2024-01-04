@@ -1,0 +1,266 @@
+/* .container-fluid{
+
+    background: linear-gradient(to left,
+    rgb(148, 148, 226),
+    rgb(238, 152, 205), 
+    rgb(183, 221, 224));
+}   */
+
+#ico{
+    margin-left: 780px; 
+    font-size: 25px; 
+}   
+.navbar-nav{
+    border: 2px solid  #D21369;
+    border-radius: 10px; 
+} 
+#navi{
+    color:  #D21369; 
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+#nav{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color:  #D21369;
+} 
+.navbar-nav{
+    border: 2px solid  #D21369;
+    border-radius: 10px; 
+} 
+#navi{
+    color:  #D21369; 
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+} 
+#nav{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    background-color:  #D21369;
+}  
+ul li a{
+    text-decoration: none; 
+    color: #D21369;
+    font-size: 22px;
+    display: block;
+    position: relative;
+ } 
+ ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color:  #D21369;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.5s;
+ } 
+
+ ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #D21369 ;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: all 0.5s;
+ }
+ ul li a:hover{
+    color:  #D21369;
+ }
+ ul li a:hover:before, ul li a:hover::after{
+    transform: scaleX(1);
+ } 
+ #ho{
+    transition: all 0.5s;  
+    box-shadow: 5px 5px 5px gray;
+ } 
+ #ho:hover{
+    transform: scaleX(1.10);
+ } 
+ 
+#ic{
+    margin-left: 40px; 
+    font-size: 25px;
+} 
+.navbar .navbar-nav .nav-link:hover{ 
+    /* background-color: pink;   */
+    color:  #D21369;
+} 
+
+.container3-fluid{
+    margin-bottom: 50px;
+}
+.container1-fluid{  
+    width: 290px;
+    height: 50px; 
+     border-style: double;
+     border-color: rgb(209, 73, 118); 
+    border-radius: 35px;
+    display: flex;
+    align-items: center; 
+    transition: 0.8s; 
+    margin-bottom: 50px;   
+    margin-top: 100px;
+    margin-left: 50px;
+}    
+ .container1-fluid:hover input{
+    width: 250px;
+}  
+ .container1-fluid input{ 
+     mix-blend-mode: multiply; 
+     border: none; 
+     outline: none; 
+    width: 0px; 
+    font-weight: 100px;
+    font-size: 16px;
+    transition: 0.7s;
+ }   
+
+ .card-body{
+    font-size: 50px; 
+    margin-left: 180px;  
+}  
+.col-md-8{
+    background: linear-gradient(to left,
+    rgb(148, 148, 226),
+    rgb(238, 152, 205), 
+    rgb(183, 221, 224));
+
+} 
+#gi{
+    box-shadow:8px 8px 8px blue ;
+}
+.sen{
+    margin-top: 100px; 
+} 
+ 
+.blog{
+    margin-top: 120px;
+} 
+.on{
+    margin-top: 30px; 
+    margin-left: 80px; 
+    font-size: 20px; 
+    color: blue;
+}  
+#sem{
+    color: #111;
+}
+#se{
+
+    color: #111;
+} 
+#thi{
+    
+    color: #111;
+}
+
+.para{
+    margin-left: 80px; 
+    margin-top: 30px; 
+    margin-bottom: 50px;
+} 
+
+.container-grid2{
+    margin-top: 80px; 
+    margin-bottom: 80px; 
+    margin-left: 50px;
+}
+.form-floating{
+    margin-bottom: 50px; 
+    margin-left: 100px; 
+} 
+.form-floating1{
+    margin-left: 100px; 
+} 
+.form-floating input{
+height:50px;
+}  
+
+#head{ 
+    font-size: 30px;
+} 
+
+.bor{
+    
+    height: 100px;
+
+} 
+
+.ab{
+    font-size: 35px; 
+    margin-left: 170px;
+    color: blue;
+}
+#on{
+   margin-right: 100px; 
+
+}
+
+.pho{
+color:rgba(0, 0, 0, 0.712); 
+   
+} 
+.fo{
+    margin-top: 90px;
+} 
+.for{
+    margin-top: 50px;
+}
+
+footer{ 
+    background-color: rgba(0, 0, 255, 0.74); 
+} 
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+} 
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 1cm;
+    color: black;
+    opacity: 0.9;
+} 
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+} 
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerBottom {
+    padding: 20px;
+    text-align: center;
+
+}
+.footerBottom p{
+    color: white;
+} 
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}  
